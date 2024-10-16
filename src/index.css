@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900 text-white;
+}
+
+.bg-gray-800 {
+  background-color: #1e2329;
+}
+
+.bg-gray-700 {
+  background-color: #2b3139;
+}
+
+.text-yellow-500 {
+  color: #f0b90b;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 20s linear infinite;
+}
